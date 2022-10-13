@@ -1,0 +1,17 @@
+//The entry point in dart is main to use syntax you should use void
+//and add paranthesis and also curly bracket
+//In between curly bracket program is written
+
+void main(){
+  
+  //This is my first line of code
+  print("Hello World");
+  //you need to use double quote symbol and also semi colon to run
+  print("This is my first Application");
+  //to print number you can also not use double quote
+  //you can solve mathematical functions while printing those number
+  print(4+1);
+  //you can also boolean values i.e. True or False
+  print(true);
+  
+}
