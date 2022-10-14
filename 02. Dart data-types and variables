@@ -1,0 +1,60 @@
+//Data types and variables
+//how to declare variables in dart
+//what are built-in variables in dart
+//what are literals??
+//how to perform String interpolations
+//various ways to declare constants in darts i.e. final keyword and const keyword
+//data types that dart supports that are as below
+//Numbers (int and double)
+//Strings
+//Booleans
+//List(also known as arrays)
+//Maps
+//Runes(for expressing Unicode characters in a String)
+//Symbols
+
+//NOTE : ALL DATA TYPES IN DART ARE OBJECTS 
+//THEREFORE, VALUES ARE BY DEFAULT NULL UNLESS WE INIALITIZE THEM
+
+
+//To declare variable
+//Define a value 21 (Let's say its your age)
+// int age = 21; [int is data type || age is variable || 21 is value and a semi colon]
+// or also var age =21; [It assigns integer automatically]
+
+//Define a value "Xesen" (Let's say its your name)
+// string name = "Xesen";
+// or also var name ="Xesen";
+
+//Define a value true [Person is alive = True OR dead = False]
+// bool isAlive=True;
+//or also var isAlive=True;
+
+void main()
+{
+  int age = 21;
+  var score = 8;
+  int hexvalue = 0xEADEFB; //you're assigning hexvalue and it must be in 8 digits
+  
+  double percentage =100;
+  var gpa=3.20;
+  double exponents=1.42e5; //you're assigning exponential value
+  
+  String name = "Xesen";
+  var company="Famed";
+  
+    bool isvalid; //defining bool object or name 
+      isvalid=true; //assigning true or false to defined object or name
+  
+  //IF ANYTHING'S VALUE IS NOT DEFINED THAN ITS NULL 
+  
+  print(age);
+  print(percentage);
+  print(name);
+  print(company);
+  print(isvalid);
+  print(score);
+   print(hexvalue);
+   print(gpa);
+   print(exponents);
+}
